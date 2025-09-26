@@ -1,0 +1,104 @@
+/* GENERAL STYLES */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+#portfolio {
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;;
+}
+
+/* SECTION STYLES */
+
+.section-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.profile-container {
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem;
+    width: 450px;
+}
+
+.picture-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+
+
+/* EXPERIENCE SECTION */ 
+
+.experience-container {
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+
+
+/* WORK SECTION */ 
+
+.workexperience-container {
+    padding: 1.5rem 3rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 1rem 0;
+}
+
+/* EDUCATION SECTION */ 
+
+.education-container {
+    padding: 1.5rem 3rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 1rem 0;
+}
+
+/* TECH STACK SECTION */
+
+.tech-stack-container {
+    padding: 1.5rem 3rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 1rem 0;
+}
